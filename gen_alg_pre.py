@@ -23,7 +23,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor, GradientBoostingRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.neighbors import KNeighborsRegressor
-import lightgbm as lgb
 from xgboost import XGBClassifier,XGBRegressor
 
 def split(df,label):
